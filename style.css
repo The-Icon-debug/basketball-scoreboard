@@ -6,6 +6,10 @@ body {
     background-size: cover;
 }
 
+.container {
+    width: min(90%, 70.5rem);
+}
+
 .split {
     display: flex;
     gap: 60px;
