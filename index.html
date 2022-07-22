@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball-Scoreboard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>An interactive Basketball-Scoreboard App</h1>
+    <div class="split">
+        <div>
+            <h1>HOME</h1>
+            <div id="home" class="black-bg">0</div>
+            <button type="button" onclick="homeScoreOne()">+1</button>
+            <button type="button" onclick="homeScoreTwo()">+2</button>
+            <button type="button" onclick="homeScoreThree()">+3</button>
+        </div>
+        <div>
+            <h1>GUEST</h1>
+            <div id="guest" class="black-bg">0</div>
+            <button type="button" onclick="guestScoreOne()">+1</button>
+            <button type="button" onclick="guestScoreTwo()">+2</button>
+            <button type="button" onclick="guestScoreThree()">+3</button>
+        </div>
+    </div>
+    <button type="button" onclick="reset()" class="reset">RESET</button>
+
+    <script src="./index.js"></script>
+</body>
+</html>
